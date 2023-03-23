@@ -1,0 +1,287 @@
+body{
+    margin:0;
+    background:fixed;
+    background-size:cover;
+    background-image: url('../img/flor.jpg');
+}
+
+
+header{
+    background-color:#9ddbb9;
+    box-shadow: rgba(224, 224, 230, 0.342) 1px 4px 10px 0px,rgba(241, 240, 240, 0.349) 0px 1px 3px -1px;
+    border-bottom:2px solid #5aa37b;
+    height: 70px;
+     
+}
+
+.divi{
+    display: inline-block;
+    
+}
+.forma{
+    display: inline-block;
+    padding-top: 22px;
+}
+
+
+#img-0{
+    background-image: url('../img/jardim.png');
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right:200px;
+    display: block;
+    margin-top:5px;
+    margin-left: 10px;
+    
+}
+
+.link{
+    text-align:center;
+    font-size: 18px;
+    text-decoration: none;
+    background-color:#ffffff ;
+    color: #080808;
+    border-radius:25px;
+    width: 40px;
+    padding: 5px;
+   font-family: Georgia;
+   cursor:pointer;
+   box-shadow: rgba(50, 50, 93, 0.25) 1px 4px 7px 0px,rgba(0,0,0,0.3) 0px 1px 3px -1px;
+   margin-left: 100px;
+   transition: 0.7s;
+}
+
+.link:hover{
+    transition:0.7s;
+    background-color: #d9e9e5;
+    padding:9px;
+    
+}
+
+
+
+
+
+/*coisas no fundo semi branco*/
+
+.cont1{
+    font-family:Georgia;
+    font-size:20px;
+    text-align: center;
+    color:#013503;
+    background-color:#eeeeeec9;
+    border-radius: 10px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.cont1:hover{
+    font-size:22px;
+    transition:0.7s ;
+}
+
+
+.titulos1{
+    font-family:Georgia;
+    font-size:20px;
+    text-align: center;
+    color:#013503;
+    background-color:#eeeeeec9;
+    border-radius: 10px;
+    width:100px;
+    margin-left:12px;
+    padding:8px;
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 0px;
+
+}
+
+.titulos2{
+    font-family:Georgia;
+    font-size:20px;
+    border-left: 5px solid #024e05;
+    color:#024e05;
+    font-weight: bold;
+
+}
+
+
+.cont{
+    font-family:Georgia;
+    font-size:20px;
+    
+}
+
+
+#semi-fundo2{
+    background-color:#eeeeeee7;
+    min-height:60vh;
+    padding:30px;
+    margin:12px;
+    border-radius: 12px;
+}
+
+#img-1{
+    background-image: url('https://imagens-revista.vivadecora.com.br/uploads/2018/05/tipos-de-flores-amor-perfeito.jpg');
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin:20px;
+    
+    
+}
+.product-img{
+    height:300px;
+    width: 80%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+
+
+.product-container{
+    max-width: 1200px;
+    margin:0 auto;
+    display: inline;
+    
+}
+
+
+
+.titulo{
+    color:#024e05;
+    font-family: Georgia;
+    font-size: 50px;
+    padding: 0px;
+    border-left: 5px solid #024e05;
+}
+
+.desc{
+    
+  font-size: 20px;
+    font-family: helvetica;
+  
+}
+.desc::first-letter{
+    font-weight: bold;
+  font-size: 35px;
+    font-family: helvetica;
+  
+}
+
+
+footer{
+    background-color:#9ddbb9;
+    box-shadow: rgba(224, 224, 230, 0.342) 1px 4px 10px 0px,rgba(241, 240, 240, 0.349) 0px 1px 3px -1px;
+    margin: 0px;
+    height: 180px;
+    border-top:2px solid #5aa37b;
+     
+}
+
+#img-2{
+    background-image: url('../img/qr.png');
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    
+    display: block;
+    margin-top:5px;
+    margin-left: 10px;
+    float:right;
+}
+
+.p-foot{
+   float: right;
+   font-size: 15px;
+   width: 150px;
+   text-align: justify;
+}
+
+.titulo2{
+    color:#024e05;
+    font-family: Georgia;
+    font-size: 25px;
+    padding: 0px;
+    border-left: 5px solid #024e05;
+}
+
+.cla{
+    list-style: none;
+    font-size: 19px;
+    font-family: Helvetica;
+    margin:0px;
+}
+
+.liste{
+    font-size: 17px;
+    font-family: Helvetica;
+}
+
+.product-imgf{
+    height:300px;
+    width: 80%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+#img-3{
+    background-image: url('../img/habitat.jpg');
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+    display: block;
+    margin-top:5px;
+    margin-left: 10px;
+    float:right;
+}
+
+.product-container{
+    max-width: 1200px;
+    margin:0 auto;
+    display: inline;
+    
+}
+
+
+#img-4{
+    background-image: url('../img/jardim.png');
+    width: 150px;
+    height: 160px;
+    margin-right:200px;
+    display: inline-block;
+    margin-top:5px;
+    margin-left: 10px;
+    
+}
+.listar{
+    margin-left: 150px;
+    font-size: 20px;
+    width:600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
