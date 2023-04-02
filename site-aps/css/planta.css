@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    background:fixed;
+    background-size:cover;
+    background-image: url('https://c1.wallpaperflare.com/path/777/10/387/chapada-dos-veadeiros-brazil-goias-national-park-rock-wall-rock-cc4916fa401efe6ab9cdfd6bdd7416a9.jpg');
+}
+
+
+header{
+    background-color:#7dc5097a;
+    box-shadow: rgba(224, 224, 230, 0.342) 1px 4px 10px 0px,rgba(241, 240, 240, 0.349) 0px 1px 3px -1px;
+    border-bottom:2px solid #4d2a02;
+    height: 80px;
+
+     
+}
+
+.divi{
+    display: flex;
+    align-items: center;
+   justify-content:flex-start;
+   
+}
+
+#img-0{
+    background-image:url('https://static.vecteezy.com/system/resources/previews/001/190/431/non_2x/flower-png.png');
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 200px;
+    
+}
+
+.product-img{
+    height:300px;
+    width: 80%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.link{
+    text-align:center;
+    font-size: 18px;
+    text-decoration: none;
+    background-color:#4d2a02 ;
+    color: #e6c405;
+    border-radius: 7px;
+    width: 40px;
+    padding: 9px;
+   font-family: Arial;
+   cursor:pointer;
+   box-shadow: rgba(50, 50, 93, 0.25) 1px 4px 7px 0px,rgba(0,0,0,0.3) 0px 1px 3px -1px;
+   margin-left: 100px;
+   transition: 0.7s;
+   border:3px solid #663804;
+   
+}
+
+.link:hover{
+    transition:0.7s;
+    background-color: #7e4504;
+    border:3px solid #7e4504;
+}
+
+#maine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+#img-1{
+    background-image: url('https://imgsapp2.correiobraziliense.com.br/app/noticia_127983242361/2020/05/16/855516/20200516113227688475a.JPG');
+    background-size: cover;
+    margin:40px;
+    
+}
+
+#img-2{
+    background-image: url('https://cdn-fkmdp.nitrocdn.com/xPfhqRZmGaMIWKLPZaPRCOMepVsygqgm/assets/static/optimized/rev-6c4bb37/florestalbrasil.com/wp-content/uploads/2019/03/856049caeffe5426e0b92d10f7b5e4d8.Aracazeiro.jpg');
+    background-size:cover;
+    margin:40px;
+    
+}
+
+#img-3{
+    background-image: url('https://static.todamateria.com.br/upload/57/bf/57bf5882b866b-cerrado.jpg');
+    background-size: cover;
+    margin:40px;
+    
+}
+   
+
+.main-img{
+    border-radius: 120px;
+    width: 160px;
+    height: 160px;
+    transition: 0.5s;
+    font-size: 0px;
+    border:3px solid #4d2a02;
+    margin: 10px;
+    
+}
+
+.main-img:hover{
+    width: 165px;
+    height: 165px;
+    transition: 0.5s;
+    color: #4d2a02;
+    transition: 0.5s;
+    border-radius: 20px;
+    margin:0px;
+}
+
+
+.letra{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #e6c405;
+    background-color:#4d2a02;
+    padding:15px;
+    margin-left:565px;
+    margin-right:565px;
+    border-radius: 12px;
+    border: 3px solid #6e4312;
+}
+
+.letra1{
+    font-size: 20px;
+    font-weight: bold;
+    color:#4d2a02;
+    
+}
+
+
+#semi-fundo2{
+    background-color:#eeeeeee7;
+    min-height:60vh;
+    padding:30px;
+    margin:12px;
+    border-radius: 12px;
+}
+
+
+
+
+
+

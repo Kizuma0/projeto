@@ -2,62 +2,59 @@ body{
     margin:0;
     background:fixed;
     background-size:cover;
-    background-image: url('../img/flor.jpg');
+    background-image: url('https://c1.wallpaperflare.com/path/777/10/387/chapada-dos-veadeiros-brazil-goias-national-park-rock-wall-rock-cc4916fa401efe6ab9cdfd6bdd7416a9.jpg');
 }
 
 
 header{
-    background-color:#9ddbb9;
+    background-color:#7dc5097a;
     box-shadow: rgba(224, 224, 230, 0.342) 1px 4px 10px 0px,rgba(241, 240, 240, 0.349) 0px 1px 3px -1px;
-    border-bottom:2px solid #5aa37b;
-    height: 70px;
+    border-bottom:2px solid #4d2a02;
+    height: 80px;
+
      
 }
 
 .divi{
-    display: inline-block;
-    
+    display: flex;
+    align-items: center;
+   justify-content:flex-start;
+   
 }
-.forma{
-    display: inline-block;
-    padding-top: 22px;
-}
-
 
 #img-0{
-    background-image: url('../img/jardim.png');
+    background-image:url('https://static.vecteezy.com/system/resources/previews/001/190/431/non_2x/flower-png.png');
     width: 60px;
     height: 60px;
-    float: left;
-    margin-right:200px;
-    display: block;
-    margin-top:5px;
-    margin-left: 10px;
-    
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 200px;
 }
 
 .link{
     text-align:center;
     font-size: 18px;
     text-decoration: none;
-    background-color:#ffffff ;
-    color: #080808;
-    border-radius:25px;
+    background-color:#4d2a02 ;
+    color: #e6c405;
+    border-radius: 7px;
     width: 40px;
-    padding: 5px;
-   font-family: Georgia;
+    padding: 9px;
+   font-family: Arial;
    cursor:pointer;
    box-shadow: rgba(50, 50, 93, 0.25) 1px 4px 7px 0px,rgba(0,0,0,0.3) 0px 1px 3px -1px;
    margin-left: 100px;
    transition: 0.7s;
+   border:3px solid #663804;
+   
 }
 
 .link:hover{
     transition:0.7s;
-    background-color: #d9e9e5;
-    padding:9px;
-    
+    background-color: #7e4504;
+    border:3px solid #7e4504;
 }
+
 
 
 
@@ -92,7 +89,8 @@ header{
     width:100px;
     margin-left:12px;
     padding:8px;
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: row;
     margin-top: 16px;
     margin-bottom: 0px;
 
@@ -101,8 +99,8 @@ header{
 .titulos2{
     font-family:Georgia;
     font-size:20px;
-    border-left: 5px solid #024e05;
-    color:#024e05;
+    border-left: 5px solid #4d2a02;
+    color:#4d2a02;
     font-weight: bold;
 
 }
@@ -153,11 +151,11 @@ header{
 
 
 .titulo{
-    color:#024e05;
+    color:#4d2a02;
     font-family: Georgia;
     font-size: 50px;
     padding: 0px;
-    border-left: 5px solid #024e05;
+    border-left: 5px solid #4d2a02;
 }
 
 .desc{
@@ -179,7 +177,7 @@ footer{
     box-shadow: rgba(224, 224, 230, 0.342) 1px 4px 10px 0px,rgba(241, 240, 240, 0.349) 0px 1px 3px -1px;
     margin: 0px;
     height: 180px;
-    border-top:2px solid #5aa37b;
+    border-top:2px solid #4d2a02;
      
 }
 
@@ -203,11 +201,11 @@ footer{
 }
 
 .titulo2{
-    color:#024e05;
+    color:#4d2a02;
     font-family: Georgia;
     font-size: 25px;
     padding: 0px;
-    border-left: 5px solid #024e05;
+    border-left: 5px solid #4d2a02;
 }
 
 .cla{
@@ -267,7 +265,49 @@ footer{
     width:600px;
 }
 
+.titulo3{
+    color:#750409;
+    border: 3px solid #750409;
+    width: 200px;
+    margin-left:530px;
+    font-family: Georgia;
+    font-size: 30px;
+    padding: 0px;
+    text-align: center;
+    -webkit-animation: titulo3 .9s linear infinite;
+   -moz-animation: titulo3 .9s linear infinite;
+   -ms-animation: titulo3 .9s linear infinite;
+   -o-animation: titulo3 .9s linear infinite;
+   animation: titulo3 .9s linear infinite;
+}
 
+@keyframes titulo3 {
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.titulo4{
+    color:#4d2a02;
+    font-family: Georgia;
+    font-size: 25px;
+    padding: 0px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.desc1{
+    font-size: 20px;
+    font-family: helvetica;
+}
+
+#img-5{
+    background-image: url('https://cdn.cmjornal.pt/images/2020-10/img_1200x1200$2020_10_13_19_54_37_982954.jpg');
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin:20px;  
+}
 
 
 
