@@ -1,0 +1,227 @@
+body{
+    margin:0;
+    background:fixed;
+    background-size:cover;
+    background-image: url('https://c1.wallpaperflare.com/path/777/10/387/chapada-dos-veadeiros-brazil-goias-national-park-rock-wall-rock-cc4916fa401efe6ab9cdfd6bdd7416a9.jpg');
+}
+
+
+header{
+    background-color: #f0e9e1;
+    height: 90px;
+    border-bottom:4px solid #301901;
+     
+}
+
+.divi{
+    display: flex;
+    align-items: center;
+   justify-content:flex-start;
+   
+}
+
+#img-0{
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 200px;
+    
+}
+
+.product-img{
+    height:300px;
+    width: 80%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.link{
+    text-align:center;
+    font-size: 18px;
+    text-decoration: none;
+    background-color:#f0e9e1 ;
+    color: #301901;
+    border-radius: 25px;
+    width: 40px;
+    padding: 14px;
+   font-family: Arial;
+   cursor:pointer;
+   box-shadow: rgba(50, 50, 93, 0.25) 1px 4px 7px 0px,rgba(0,0,0,0.3) 0px 1px 3px -1px;
+   margin-left: 100px;
+   transition: 0.5s;
+   border: 2px solid #301901;
+   
+}
+
+.link:hover{
+    transition:0.5s;
+    background-color: #301901;
+    padding:16px;
+    color:#f0e9e1;
+}
+
+#plano{
+    text-align:center;
+    font-size: 40px;
+    text-decoration: none;
+    background-color: #f0e9e1;
+    transition:0.7s;
+    color:#301901;
+    border: 2px solid #f0e9e1;
+    border-radius: 20px;
+    padding-top: 100px;
+   font-family: Arial;
+   cursor:pointer;
+   box-shadow: rgba(50, 50, 93, 0.25) 1px 4px 7px 0px,rgba(0,0,0,0.3) 0px 1px 3px -1px;
+   height: 150px;
+   margin: 20px;
+   font-weight: bold;
+   transition:0.7s;
+}
+
+#plano:hover{
+    background-image: url('https://images3.alphacoders.com/876/876500.jpg');
+    background-size: cover;
+    background-position-y: center;
+    background-color: #f0e9e1;
+    transition:0.7s;
+    color:#f0e9e1;
+    border: 2px solid #f0e9e1;
+    padding-top: 100px;
+    height: 150px;
+}
+
+#plano1{
+    text-align:center;
+    font-size: 40px;
+    text-decoration: none;
+   background-color: #f0e9e1;
+    color: #301901;
+    border-radius: 20px;
+    padding-top: 100px;
+   font-family: Arial;
+   cursor:pointer;
+   box-shadow: rgba(50, 50, 93, 0.25) 1px 4px 7px 0px,rgba(0,0,0,0.3) 0px 1px 3px -1px;
+   height: 150px;
+   margin: 20px;
+   font-weight: bold;
+   transition:0.7s;
+   border:2px solid #f0e9e1;
+}
+
+#plano1:hover{
+    background-image: url('https://c0.wallpaperflare.com/preview/318/842/575/animal-capybara-close-up-cute.jpg');
+    background-size: cover;
+    background-position-y: center;
+    transition:0.7s;
+    color:#f0e9e1;
+    border: 2px solid #f0e9e1;
+    padding-top: 100px;
+    height: 150px;
+}
+
+#plano2{
+    text-align:center;
+    font-size: 40px;
+    text-decoration: none;
+    background-color: #f0e9e1;
+    transition:0.7s;
+    color:#301901;
+    border: 2px solid #f0e9e1;
+    border-radius: 20px;
+    padding-top: 100px;
+   font-family: Arial;
+   cursor:pointer;
+   box-shadow: rgba(50, 50, 93, 0.25) 1px 4px 7px 0px,rgba(0,0,0,0.3) 0px 1px 3px -1px;
+   height: 150px;
+   margin: 20px;
+   font-weight: bold;
+   transition:0.7s;
+  
+}
+
+#plano2:hover{
+    background-image: url('https://t3.ftcdn.net/jpg/04/19/96/66/360_F_419966663_MfOORiYuavHrVTERF1f8KzN4bOr6Nq0a.jpg');
+    background-size: cover;
+    background-position-y: bottom;
+    background-color: #f0e9e1;
+    transition:0.7s;
+    color:#f0e9e1;
+    border: 2px solid #f0e9e1;
+    padding-top: 100px;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color:#f0e9e1;
+    box-shadow: rgba(224, 224, 230, 0.342) 1px 4px 10px 0px,rgba(241, 240, 240, 0.349) 0px 1px 3px -1px;
+    margin: 0px;
+    height: 180px;
+    border-top:4px solid #301901;
+     
+}
+
+.p-foot{
+    float: right;
+    font-size: 15px;
+    width: 150px;
+    text-align: justify;
+    color: #301901;
+ }
+
+ #img-6{
+    background-image: url('../img/qr.png');
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    
+    display: block;
+    margin-top:5px;
+    margin-left: 10px;
+    float:right;
+}
+
+#img-4{
+    background-image: url('../img/jardim.png');
+    width: 150px;
+    height: 160px;
+    margin-right:200px;
+    display: inline-block;
+    margin-top:5px;
+    margin-left: 10px;
+    
+}
+.listar{
+    margin-left: 150px;
+    font-size: 20px;
+    width:600px;
+}
+
+.ref{
+    text-decoration: none;
+    color: #301901;
+}
+
+
+
+
+
+
+
+

@@ -7,11 +7,9 @@ body{
 
 
 header{
-    background-color:#7dc5097a;
-    box-shadow: rgba(224, 224, 230, 0.342) 1px 4px 10px 0px,rgba(241, 240, 240, 0.349) 0px 1px 3px -1px;
-    border-bottom:2px solid #4d2a02;
-    height: 80px;
-
+    background-color: #f0e9e1;
+    height: 90px;
+    border-bottom:4px solid #301901;
      
 }
 
@@ -23,7 +21,6 @@ header{
 }
 
 #img-0{
-    background-image:url('https://static.vecteezy.com/system/resources/previews/001/190/431/non_2x/flower-png.png');
     width: 60px;
     height: 60px;
     margin-top: 5px;
@@ -46,24 +43,25 @@ header{
     text-align:center;
     font-size: 18px;
     text-decoration: none;
-    background-color:#4d2a02 ;
-    color: #e6c405;
-    border-radius: 7px;
+    background-color:#f0e9e1 ;
+    color: #301901;
+    border-radius: 25px;
     width: 40px;
-    padding: 9px;
+    padding: 14px;
    font-family: Arial;
    cursor:pointer;
    box-shadow: rgba(50, 50, 93, 0.25) 1px 4px 7px 0px,rgba(0,0,0,0.3) 0px 1px 3px -1px;
    margin-left: 100px;
-   transition: 0.7s;
-   border:3px solid #663804;
+   transition: 0.5s;
+   border: 2px solid #301901;
    
 }
 
 .link:hover{
-    transition:0.7s;
-    background-color: #7e4504;
-    border:3px solid #7e4504;
+    transition:0.5s;
+    background-color: #301901;
+    padding:16px;
+    color:#f0e9e1;
 }
 
 #maine{
@@ -101,7 +99,7 @@ header{
     height: 160px;
     transition: 0.5s;
     font-size: 0px;
-    border:3px solid #4d2a02;
+    border:3px solid #301901;
     margin: 10px;
     
 }
@@ -110,7 +108,7 @@ header{
     width: 165px;
     height: 165px;
     transition: 0.5s;
-    color: #4d2a02;
+    color: #301901;
     transition: 0.5s;
     border-radius: 20px;
     margin:0px;
@@ -122,19 +120,19 @@ header{
     font-size: 35px;
     font-family: Arial;
     font-weight: bold;
-    color: #e6c405;
-    background-color:#4d2a02;
+    color: #301901;
+    background-color:#f0e9e1;
     padding:15px;
     margin-left:565px;
     margin-right:565px;
     border-radius: 12px;
-    border: 3px solid #6e4312;
+    border: 3px solid #301901;
 }
 
 .letra1{
     font-size: 20px;
     font-weight: bold;
-    color:#4d2a02;
+    color:#301901;
     
 }
 
@@ -145,6 +143,58 @@ header{
     padding:30px;
     margin:12px;
     border-radius: 12px;
+}
+
+.desc{
+    font-size: 20px;
+    text-align: justify;
+    color:#301901;
+    
+}
+
+footer{
+    background-color:#f0e9e1;
+    box-shadow: rgba(224, 224, 230, 0.342) 1px 4px 10px 0px,rgba(241, 240, 240, 0.349) 0px 1px 3px -1px;
+    margin: 0px;
+    height: 180px;
+    border-top:4px solid #301901;
+     
+}
+
+.p-foot{
+    float: right;
+    font-size: 15px;
+    width: 150px;
+    text-align: justify;
+    color: #301901;
+ }
+
+ #img-6{
+    background-image: url('../img/qr.png');
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    
+    display: block;
+    margin-top:5px;
+    margin-left: 10px;
+    float:right;
+}
+
+#img-4{
+    background-image: url('../img/jardim.png');
+    width: 150px;
+    height: 160px;
+    margin-right:200px;
+    display: inline-block;
+    margin-top:5px;
+    margin-left: 10px;
+    
+}
+.listar{
+    margin-left: 150px;
+    font-size: 20px;
+    width:600px;
 }
 
 

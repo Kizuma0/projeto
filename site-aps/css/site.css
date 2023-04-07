@@ -7,11 +7,9 @@ body{
 
 
 header{
-    background-color:#7dc5097a;
-    box-shadow: rgba(224, 224, 230, 0.342) 1px 4px 10px 0px,rgba(241, 240, 240, 0.349) 0px 1px 3px -1px;
-    border-bottom:2px solid #4d2a02;
-    height: 80px;
-
+    background-color: #f0e9e1;
+    height: 90px;
+    border-bottom:4px solid #301901;
      
 }
 
@@ -19,11 +17,10 @@ header{
     display: flex;
     align-items: center;
    justify-content:flex-start;
-   
+   backgrond-opacity:
 }
 
 #img-0{
-    background-image:url('https://static.vecteezy.com/system/resources/previews/001/190/431/non_2x/flower-png.png');
     width: 60px;
     height: 60px;
     margin-top: 5px;
@@ -35,24 +32,25 @@ header{
     text-align:center;
     font-size: 18px;
     text-decoration: none;
-    background-color:#4d2a02 ;
-    color: #e6c405;
-    border-radius: 7px;
+    background-color:#f0e9e1 ;
+    color: #301901;
+    border-radius: 25px;
     width: 40px;
-    padding: 9px;
+    padding: 14px;
    font-family: Arial;
    cursor:pointer;
    box-shadow: rgba(50, 50, 93, 0.25) 1px 4px 7px 0px,rgba(0,0,0,0.3) 0px 1px 3px -1px;
    margin-left: 100px;
-   transition: 0.7s;
-   border:3px solid #663804;
+   transition: 0.5s;
+   border: 2px solid #301901;
    
 }
 
 .link:hover{
-    transition:0.7s;
-    background-color: #7e4504;
-    border:3px solid #7e4504;
+    transition:0.5s;
+    background-color: #301901;
+    padding:16px;
+    color:#f0e9e1;
 }
 
 
@@ -66,7 +64,7 @@ header{
     font-family:Georgia;
     font-size:20px;
     text-align: center;
-    color:#013503;
+    color:#301901;
     background-color:#eeeeeec9;
     border-radius: 10px;
     padding: 8px;
@@ -78,12 +76,28 @@ header{
     transition:0.7s ;
 }
 
+.cont2{
+    font-family:Georgia;
+    font-size:20px;
+    text-align: center;
+    color:#750409;
+    background-color:#eeeeeec9;
+    border-radius: 10px;
+    padding: 8px;
+    text-decoration: none;
+    
+}
+
+.cont2:hover{
+    font-size:22px;
+    transition:0.7s ;
+}
 
 .titulos1{
     font-family:Georgia;
     font-size:20px;
     text-align: center;
-    color:#013503;
+    color:#301901;
     background-color:#eeeeeec9;
     border-radius: 10px;
     width:100px;
@@ -99,8 +113,8 @@ header{
 .titulos2{
     font-family:Georgia;
     font-size:20px;
-    border-left: 5px solid #4d2a02;
-    color:#4d2a02;
+    border-left: 5px solid #301901;
+    color:#301901;
     font-weight: bold;
 
 }
@@ -127,8 +141,6 @@ header{
     height: 200px;
     float: left;
     margin:20px;
-    
-    
 }
 .product-img{
     height:300px;
@@ -151,11 +163,11 @@ header{
 
 
 .titulo{
-    color:#4d2a02;
+    color:#301901;
     font-family: Georgia;
     font-size: 50px;
     padding: 0px;
-    border-left: 5px solid #4d2a02;
+    border-left: 5px solid #301901;
 }
 
 .desc{
@@ -173,13 +185,21 @@ header{
 
 
 footer{
-    background-color:#9ddbb9;
+    background-color:#f0e9e1;
     box-shadow: rgba(224, 224, 230, 0.342) 1px 4px 10px 0px,rgba(241, 240, 240, 0.349) 0px 1px 3px -1px;
     margin: 0px;
     height: 180px;
-    border-top:2px solid #4d2a02;
+    border-top:4px solid #301901;
      
 }
+
+.p-foot{
+    float: right;
+    font-size: 15px;
+    width: 150px;
+    text-align: justify;
+    color: #301901;
+ }
 
 #img-2{
     background-image: url('../img/qr.png');
@@ -193,19 +213,12 @@ footer{
     float:right;
 }
 
-.p-foot{
-   float: right;
-   font-size: 15px;
-   width: 150px;
-   text-align: justify;
-}
-
 .titulo2{
-    color:#4d2a02;
+    color:#301901;
     font-family: Georgia;
     font-size: 25px;
     padding: 0px;
-    border-left: 5px solid #4d2a02;
+    border-left: 5px solid #301901;
 }
 
 .cla{
@@ -267,28 +280,18 @@ footer{
 
 .titulo3{
     color:#750409;
-    border: 3px solid #750409;
     width: 200px;
     margin-left:530px;
     font-family: Georgia;
     font-size: 30px;
     padding: 0px;
     text-align: center;
-    -webkit-animation: titulo3 .9s linear infinite;
-   -moz-animation: titulo3 .9s linear infinite;
-   -ms-animation: titulo3 .9s linear infinite;
-   -o-animation: titulo3 .9s linear infinite;
-   animation: titulo3 .9s linear infinite;
 }
 
-@keyframes titulo3 {
-    0% { opacity: 0; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1; }
-}
+
 
 .titulo4{
-    color:#4d2a02;
+    color:#301901;
     font-family: Georgia;
     font-size: 25px;
     padding: 0px;
