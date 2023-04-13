@@ -2,7 +2,7 @@ body{
     margin:0;
     background:fixed;
     background-size:cover;
-    background-image: url('https://c1.wallpaperflare.com/path/777/10/387/chapada-dos-veadeiros-brazil-goias-national-park-rock-wall-rock-cc4916fa401efe6ab9cdfd6bdd7416a9.jpg');
+    background-image: url('img/wallpaper.jpg');
 }
 
 
@@ -98,21 +98,21 @@ header{
 
 
 #img-1{
-    background-image: url('https://imgsapp2.correiobraziliense.com.br/app/noticia_127983242361/2020/05/16/855516/20200516113227688475a.JPG');
+    background-image: url('img/capi.jpg');
     background-size: cover;
     margin:40px;
     
 }
 
 #img-2{
-    background-image: url('https://cdn-fkmdp.nitrocdn.com/xPfhqRZmGaMIWKLPZaPRCOMepVsygqgm/assets/static/optimized/rev-6c4bb37/florestalbrasil.com/wp-content/uploads/2019/03/856049caeffe5426e0b92d10f7b5e4d8.Aracazeiro.jpg');
+    background-image: url('img/plant.jpg');
     background-size:cover;
     margin:40px;
     
 }
 
 #img-3{
-    background-image: url('https://static.todamateria.com.br/upload/57/bf/57bf5882b866b-cerrado.jpg');
+    background-image: url('img/bioma.jpg');
     background-size: cover;
     margin:40px;
     
@@ -155,7 +155,7 @@ a{
 }
 
 #img-5{
-    background-image: url('https://www.savecerrado.org/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-10-at-15.40.15.jpeg');
+    background-image: url('img/desmat.jpeg');
     width: 500px;
     height: 300px;
     float: left;
