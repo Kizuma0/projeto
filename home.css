@@ -38,7 +38,7 @@ header{
     color: #301901;
     border-radius: 25px;
     width: 40px;
-    padding: 14px;
+    padding: 2.5vh;
    font-family: Arial;
    cursor:pointer;
    box-shadow: rgba(50, 50, 93, 0.25) 1px 4px 7px 0px,rgba(0,0,0,0.3) 0px 1px 3px -1px;
@@ -51,7 +51,7 @@ header{
 .link:hover{
     transition:0.5s;
     background-color: #301901;
-    padding:16px;
+    padding:3vh;
     color:#f0e9e1;
 }
 
@@ -69,7 +69,7 @@ header{
     font-weight: bold;
     color: #301901;
     background-color:#f0e9e1;
-    padding:20px;
+    padding:4vh;
     border-radius: 12px;
     border: 3px solid #301901;
 }
