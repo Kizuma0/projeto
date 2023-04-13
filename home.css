@@ -8,7 +8,7 @@ body{
 
 header{
     background-color: #f0e9e1;
-    height: 90px;
+    height: 15vh;
     border-bottom:4px solid #301901;
      
 }
@@ -66,7 +66,10 @@ header{
 
 
 
-
+.centro{
+    display: flex;
+    justify-content: center;
+}
 
 .letra{
     text-align: center;
@@ -76,8 +79,6 @@ header{
     color: #301901;
     background-color:#f0e9e1;
     padding:20px;
-    margin-left:600px;
-    margin-right:565px;
     border-radius: 12px;
     border: 3px solid #301901;
 }
@@ -152,6 +153,9 @@ a{
     padding:30px;
     margin:12px;
     border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+
 }
 
 #img-5{
@@ -175,7 +179,7 @@ a{
 
 
 .product-container{
-    max-width: 1200px;
+    max-width: 50vh;
     margin:0 auto;
     
     
