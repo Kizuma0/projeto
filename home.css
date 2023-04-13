@@ -6,14 +6,10 @@ body{
 }
 
 
-header{
+.divi{
     background-color: #f0e9e1;
     height: 15vh;
     border-bottom:4px solid #301901;
-     
-}
-
-.divi{
     display: flex;
     align-items: center;
    justify-content:space-around;
@@ -39,7 +35,7 @@ header{
     border-radius: 25px;
     width: 40px;
     padding: 1.7vh;
-   font-family: Arial;
+    font-family: Arial;
    cursor:pointer;
    box-shadow: rgba(50, 50, 93, 0.25) 1px 4px 7px 0px,rgba(0,0,0,0.3) 0px 1px 3px -1px;
    margin-left: 100px;
