@@ -6,39 +6,16 @@ body{
 }
 
 
-header{
-    background-color: #f0e9e1;
-    height: 90px;
-    border-bottom:4px solid #301901;
-     
-}
-
+/*HEADER*/
 .divi{
+    background-color: #f0e9e1;
+    height: 15vh;
+    border-bottom:4px solid #301901;
     display: flex;
     align-items: center;
-   justify-content:flex-start;
+   justify-content:space-around;
    
 }
-
-#img-0{
-    width: 60px;
-    height: 60px;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 200px;
-    
-}
-
-.product-img{
-    height:300px;
-    width: 80%;
-    margin-bottom: 10px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 20px;
-
-}
-
 .link{
     text-align:center;
     font-size: 18px;
@@ -51,48 +28,75 @@ header{
    font-family: Arial;
    cursor:pointer;
    box-shadow: rgba(50, 50, 93, 0.25) 1px 4px 7px 0px,rgba(0,0,0,0.3) 0px 1px 3px -1px;
-   margin-left: 100px;
    transition: 0.5s;
    border: 2px solid #301901;
    
 }
-
 .link:hover{
     transition:0.5s;
     background-color: #301901;
     padding:16px;
     color:#f0e9e1;
 }
+/*--------*/
 
-#maine{
+
+
+
+
+
+.centro{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+}
+.letra{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #301901;
+    background-color:#f0e9e1;
+    padding:2vh;
+    border-radius: 12px;
+    border: 3px solid #301901;
 }
 
 
+
+
+
+
+
+
+
 #img-1{
-    background-image: url('https://imgsapp2.correiobraziliense.com.br/app/noticia_127983242361/2020/05/16/855516/20200516113227688475a.JPG');
+    background-image: url('');
     background-size: cover;
-    margin:40px;
+   
     
 }
 
 #img-2{
-    background-image: url('https://cdn-fkmdp.nitrocdn.com/xPfhqRZmGaMIWKLPZaPRCOMepVsygqgm/assets/static/optimized/rev-6c4bb37/florestalbrasil.com/wp-content/uploads/2019/03/856049caeffe5426e0b92d10f7b5e4d8.Aracazeiro.jpg');
+    background-image: url('');
     background-size:cover;
-    margin:40px;
+   
     
 }
 
 #img-3{
-    background-image: url('https://static.todamateria.com.br/upload/57/bf/57bf5882b866b-cerrado.jpg');
+    background-image: url('');
     background-size: cover;
-    margin:40px;
+    
     
 }
    
-
+#semi-fundo2{
+    background-color:#eeeeeee7;
+    min-height:60vh;
+    padding:30px;
+    margin:12px;
+    border-radius: 12px;
+}
 .main-img{
     border-radius: 120px;
     width: 160px;
@@ -100,10 +104,9 @@ header{
     transition: 0.5s;
     font-size: 0px;
     border:3px solid #301901;
-    margin: 10px;
+
     
 }
-
 .main-img:hover{
     width: 165px;
     height: 165px;
@@ -113,56 +116,53 @@ header{
     border-radius: 20px;
     margin:0px;
 }
-
-
-.letra{
-    text-align: center;
-    font-size: 35px;
-    font-family: Arial;
-    font-weight: bold;
-    color: #301901;
-    background-color:#f0e9e1;
-    padding:15px;
-    margin-left:565px;
-    margin-right:565px;
-    border-radius: 12px;
-    border: 3px solid #301901;
+#go{
+    display: flex;
+    justify-content: center;
+}
+.dmaine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
+#maine{
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
 .letra1{
     font-size: 20px;
     font-weight: bold;
     color:#301901;
+    height: 160px;
     
 }
 
 
-#semi-fundo2{
-    background-color:#eeeeeee7;
-    min-height:60vh;
-    padding:30px;
-    margin:12px;
-    border-radius: 12px;
-}
-
-.desc{
-    font-size: 20px;
-    text-align: justify;
-    color:#301901;
-    
-}
-
+/*FOOTER*/
 footer{
     background-color:#f0e9e1;
-    box-shadow: rgba(224, 224, 230, 0.342) 1px 4px 10px 0px,rgba(241, 240, 240, 0.349) 0px 1px 3px -1px;
     margin: 0px;
-    height: 180px;
+    height: 25vh;
     border-top:4px solid #301901;
-     
+     display: flex;
+}
+
+.product-img{
+    height:300px;
+    width: 80%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
 }
 
 .p-foot{
-    float: right;
     font-size: 15px;
     width: 150px;
     text-align: justify;
@@ -170,34 +170,26 @@ footer{
  }
 
  #img-6{
-    background-image: url('../img/qr.png');
+    background-image: url('../siteaps/img/qrcode.png');
+    background-size: cover;
+    border-radius: 10px;
     width: 80px;
     height: 80px;
-    margin-bottom: 20px;
-    
-    display: block;
-    margin-top:5px;
-    margin-left: 10px;
-    float:right;
+    margin:5px;
 }
 
 #img-4{
-    background-image: url('../img/jardim.png');
+    background-image: url('../siteaps/img/jardim.png');
     width: 150px;
     height: 160px;
-    margin-right:200px;
-    display: inline-block;
-    margin-top:5px;
-    margin-left: 10px;
-    
+    margin-left:15px;
 }
 .listar{
-    margin-left: 150px;
     font-size: 20px;
     width:600px;
+    flex-grow: 2;
 }
-
-
+/*----------*/
 
 
 

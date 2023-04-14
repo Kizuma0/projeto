@@ -1,5 +1,6 @@
 body{
     margin:0;
+    padding: 0;
     background:fixed;
     background-size:cover;
     background-image: url('img/wallpaper.jpg');
@@ -7,14 +8,19 @@ body{
 
 
 .divi{
+    width:100%;
     background-color: #f0e9e1;
     height: 15vh;
     border-bottom:4px solid #301901;
     display: flex;
     align-items: center;
-   justify-content:space-around;
-   
+   justify-content:space-evenly;
+   margin :0px; 
+ 
 }
+
+
+
 
 .product-img{
     height:300px;
@@ -38,7 +44,6 @@ body{
     font-family: Arial;
    cursor:pointer;
    box-shadow: rgba(50, 50, 93, 0.25) 1px 4px 7px 0px,rgba(0,0,0,0.3) 0px 1px 3px -1px;
-   margin-left: 100px;
    transition: 0.5s;
    border: 2px solid #301901;
    
@@ -74,17 +79,19 @@ body{
 
 #maine{
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: column;
 }
 
 #maino{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
-    align-items:stretch ;
+    flex-wrap: wrap;
+
     
 }
+
+
 
 
 #img-1{
@@ -144,15 +151,16 @@ a{
     border-radius: 12px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
 #img-5{
     background-image: url('img/desmat.jpeg');
-    width: 500px;
-    height: 300px;
-    float: left;
+    width: 300px;
+    height: 200px;
     margin:20px;
+    float:left;
     
     
 }
@@ -168,9 +176,10 @@ a{
 
 
 .product-container{
-    max-width: 50vh;
     margin:0 auto;
-    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     
 }
 
@@ -183,51 +192,45 @@ a{
 
 footer{
     background-color:#f0e9e1;
-    box-shadow: rgba(224, 224, 230, 0.342) 1px 4px 10px 0px,rgba(241, 240, 240, 0.349) 0px 1px 3px -1px;
     margin: 0px;
-    height: 180px;
+    height: 25vh;
     border-top:4px solid #301901;
-     
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 100vh;
 }
 
+
 .p-foot{
-    float: right;
     font-size: 15px;
     width: 150px;
     text-align: justify;
     color: #301901;
+    background-color:#f0e9e1;
  }
 
  #img-6{
-    background-image: url('../img/qr.png');
+    background-image: url('../siteaps/img/qrcode.png');
+    background-size: cover;
+    border-radius: 10px;
     width: 80px;
     height: 80px;
-    margin-bottom: 20px;
-    
-    display: block;
-    margin-top:5px;
-    margin-left: 10px;
-    float:right;
+    margin:5px;
+    background-color:#f0e9e1;
 }
 
 #img-4{
-    background-image: url('../img/jardim.png');
+    background-image: url('../siteaps/img/jardim.png');
     width: 150px;
     height: 160px;
-    margin-right:200px;
-    display: inline-block;
-    margin-top:5px;
-    margin-left: 10px;
-    
+    margin-left:15px;
+    background-color:#f0e9e1;
 }
 .listar{
-    margin-left: 150px;
     font-size: 20px;
-    width:600px;
+    flex-grow: 2;
+    background-color:#f0e9e1;
 }
-
-
-
 
 
 

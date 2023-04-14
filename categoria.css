@@ -6,29 +6,16 @@ body{
 }
 
 
-header{
-    background-color: #f0e9e1;
-    height: 90px;
-    border-bottom:4px solid #301901;
-     
-}
 
 .divi{
+    background-color: #f0e9e1;
+    height: 15vh;
+    border-bottom:4px solid #301901;
     display: flex;
     align-items: center;
-   justify-content:flex-start;
+   justify-content:space-around;
    
 }
-
-#img-0{
-    width: 60px;
-    height: 60px;
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 200px;
-    
-}
-
 .product-img{
     height:300px;
     width: 80%;
@@ -51,7 +38,6 @@ header{
    font-family: Arial;
    cursor:pointer;
    box-shadow: rgba(50, 50, 93, 0.25) 1px 4px 7px 0px,rgba(0,0,0,0.3) 0px 1px 3px -1px;
-   margin-left: 100px;
    transition: 0.5s;
    border: 2px solid #301901;
    
@@ -170,14 +156,17 @@ header{
 
 footer{
     background-color:#f0e9e1;
-    box-shadow: rgba(224, 224, 230, 0.342) 1px 4px 10px 0px,rgba(241, 240, 240, 0.349) 0px 1px 3px -1px;
     margin: 0px;
-    height: 180px;
+    height: 25vh;
     border-top:4px solid #301901;
+     display: flex;
+    
      
 }
 
+
 .p-foot{
+    
     float: right;
     font-size: 15px;
     width: 150px;
@@ -186,39 +175,38 @@ footer{
  }
 
  #img-6{
-    background-image: url('../img/qr.png');
+    background-image: url('../siteaps/img/qrcode.png');
+    background-size: cover;
+    border-radius: 10px;
     width: 80px;
     height: 80px;
-    margin-bottom: 20px;
-    
-    display: block;
-    margin-top:5px;
-    margin-left: 10px;
-    float:right;
+    margin:5px;
 }
 
 #img-4{
-    background-image: url('../img/jardim.png');
+    background-image: url('../siteaps/img/jardim.png');
     width: 150px;
     height: 160px;
-    margin-right:200px;
-    display: inline-block;
-    margin-top:5px;
-    margin-left: 10px;
-    
-}
-.listar{
-    margin-left: 150px;
-    font-size: 20px;
-    width:600px;
+    margin-left:15px;
+ 
 }
 
+.listar{
+    font-size: 20px;
+    flex-grow: 2;
+    
+}
 .ref{
     text-decoration: none;
     color: #301901;
 }
 
-
+.dividir{
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+}
 
 
 
