@@ -61,35 +61,6 @@ body{
     border: 3px solid #301901;
 }
 
-
-
-
-
-
-
-
-
-#img-1{
-    background-image: url('');
-    background-size: cover;
-   
-    
-}
-
-#img-2{
-    background-image: url('');
-    background-size:cover;
-   
-    
-}
-
-#img-3{
-    background-image: url('');
-    background-size: cover;
-    
-    
-}
-   
 #semi-fundo2{
     background-color:#eeeeeee7;
     min-height:60vh;
@@ -143,6 +114,57 @@ body{
 }
 
 
+#img-10{
+    background-image: url('../siteaps/img/graviola.jpg');
+    background-size: cover;
+}
+
+#img-11{
+    background-image: url('../siteaps/img/setaria.jpg');
+    background-size: cover;
+}
+
+#img-12{
+    background-image: url('../siteaps/img/xyris.jpg');
+    background-size: cover;
+}
+
+#img-13{
+    background-image: url('../siteaps/img/euxylo.jpg');
+    background-size: cover;
+}
+
+#img-14{
+    background-image: url('../siteaps/img/dyckia.jpg');
+    background-size: cover;
+}
+
+#img-15{
+    background-image: url('../siteaps/img/aroeira.jpg');
+    background-size: cover;
+}
+
+#img-16{
+    background-image: url('../siteaps/img/jatoba.jpg');
+    background-size: cover;
+}
+
+#img-17{
+    background-image: url('../siteaps/img/ipe.png');
+    background-size: cover;
+}
+
+#img-18{
+    background-image: url('../siteaps/img/pau-terra.jpg');
+    background-size: cover;
+}
+
+#img-19{
+    background-image: url('../siteaps/img/pitanga.png');
+    background-size: cover;
+}
+
+
 /*FOOTER*/
 footer{
     background-color:#f0e9e1;
@@ -191,56 +213,6 @@ footer{
 }
 /*----------*/
 
-
-#img-10{
-    background-image: url('../img/graviola.jpg');
-    background-size: cover;
-}
-
-#img-11{
-    background-image: url('../img/setaria.jpg');
-    background-size: cover;
-}
-
-#img-12{
-    background-image: url('../img/xyris.jpg');
-    background-size: cover;
-}
-
-#img-13{
-    background-image: url('../img/euxylo.jpg');
-    background-size: cover;
-}
-
-#img-14{
-    background-image: url('../img/dyckia.jpg');
-    background-size: cover;
-}
-
-#img-15{
-    background-image: url('../img/aroeira.jpg');
-    background-size: cover;
-}
-
-#img-16{
-    background-image: url('../img/jatoba.jpg');
-    background-size: cover;
-}
-
-#img-17{
-    background-image: url('../img/ipe.png');
-    background-size: cover;
-}
-
-#img-18{
-    background-image: url('../img/pau-terra.jpg');
-    background-size: cover;
-}
-
-#img-19{
-    background-image: url('../img/pitanga.png');
-    background-size: cover;
-}
 
 
 
