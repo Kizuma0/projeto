@@ -168,9 +168,11 @@ body{
 footer{
     background-color:#f0e9e1;
     margin: 0px;
-    height: 25vh;
+    height: 31vh;
     border-top:4px solid #301901;
      display: flex;
+     flex-direction: row;
+     flex-flow: row;
 }
 
 .product-img{
@@ -201,8 +203,8 @@ footer{
 
 #img-4{
     background-image: url('img/jardim.png');
-    width: 150px;
-    height: 160px;
+    width: 100px;
+    height: 100px;
     margin-left:15px;
 }
 .listar{

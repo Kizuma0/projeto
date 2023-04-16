@@ -212,7 +212,7 @@ body{
 footer{
     background-color:#f0e9e1;
     margin: 0px;
-    height: 25vh;
+    height: 31vh;
     border-top:4px solid #301901;
     display: flex;
     flex-wrap: wrap;
@@ -236,7 +236,7 @@ footer{
     width: 80px;
     height: 80px;
     margin:5px;
-    background-color:#f0e9e1;
+
 }
 
 #img-4{
@@ -244,12 +244,11 @@ footer{
     width: 100px;
     height: 100px;
     margin-left:15px;
-    background-color:#f0e9e1;
+
 }
 .listar{
-    font-size: 15px;
+    font-size: 20px;
     flex-grow: 2;
-    background-color:#f0e9e1;
 }
 
 
