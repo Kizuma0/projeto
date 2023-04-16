@@ -52,7 +52,7 @@ body{
 .link:hover{
     transition:0.5s;
     background-color: #301901;
-    padding:2.2vh;
+    padding:2vh;
     color:#f0e9e1;
 }
 
