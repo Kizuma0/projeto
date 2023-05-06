@@ -1,0 +1,196 @@
+body{
+    margin:0;
+    background:fixed;
+    background-size:cover;
+    background-image: url('img/wallpaper.jpg');
+}
+
+
+/*HEADER*/
+.divi{
+    background-color: #f0e9e1;
+    height: 15vh;
+    border-bottom:4px solid #301901;
+    display: flex;
+    align-items: center;
+   justify-content:space-around;
+   
+}
+.link{
+    text-align:center;
+    font-size: 18px;
+    text-decoration: none;
+    background-color:#f0e9e1 ;
+    color: #301901;
+    border-radius: 25px;
+    width: 40px;
+    padding: 1.7vh;
+   font-family: Arial;
+   cursor:pointer;
+   box-shadow: rgba(50, 50, 93, 0.25) 1px 4px 7px 0px,rgba(0,0,0,0.3) 0px 1px 3px -1px;
+   transition: 0.5s;
+   border: 2px solid #301901;
+   
+}
+.link:hover{
+    transition:0.5s;
+    background-color: #301901;
+    padding: 2.2vh;
+    color:#f0e9e1;
+}
+/*--------*/
+
+
+
+
+
+
+.centro{
+    display: flex;
+    justify-content: center;
+}
+.letra{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #301901;
+    background-color:#f0e9e1;
+    padding:2vh;
+    border-radius: 12px;
+    border: 3px solid #301901;
+}
+
+#semi-fundo2{
+    background-color:#eeeeeee7;
+    padding:30px;
+    margin:12px;
+    border-radius: 12px;
+}
+.main-img{
+    border-radius: 120px;
+    width: 160px;
+    height: 160px;
+    transition: 0.5s;
+    font-size: 0px;
+    border:3px solid #301901;
+
+    
+}
+.main-img:hover{
+    width: 165px;
+    height: 165px;
+    transition: 0.5s;
+    color: #301901;
+    transition: 0.5s;
+    border-radius: 20px;
+    margin:0px;
+}
+#go{
+    display: flex;
+    justify-content: center;
+}
+.dmaine{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#maine{
+    display: flex;
+    flex-direction: column;
+    
+
+
+}
+.letra1{
+    font-size: 20px;
+    font-weight: bold;
+    color:#301901;
+    height: 160px;
+    
+}
+
+#img-10{
+    background-image: url('img/clima.jpg');
+    background-size: cover;
+}
+
+#img-11{
+    background-image: url('img/capivara.jpg');
+    background-size: cover;
+}
+
+#img-12{
+    background-image: url('img/tatu.jpg');
+    background-size: cover;
+}
+
+#img-13{
+    background-image: url('img/tamandua.jpg');
+    background-size: cover;
+}
+
+#img-14{
+    background-image: url('img/tucano.jpg');
+    background-size: cover;
+}
+
+
+
+/*FOOTER*/
+footer{
+    background-color:#f0e9e1;
+    margin: 0px;
+    height: 31vh;
+    border-top:4px solid #301901;
+     display: flex;
+     flex-direction: row;
+     flex-flow: row;
+}
+
+.product-img{
+    height:300px;
+    width: 80%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.p-foot{
+    font-size: 15px;
+    width: 150px;
+    text-align: justify;
+    color: #301901;
+ }
+
+ #img-6{
+    background-image: url('img/qrcode.png');
+    background-size: cover;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    margin:5px;
+}
+
+#img-4{
+    background-image: url('img/jardim.png');
+    width: 100px;
+    height: 100px;
+    margin-left:15px;
+}
+.listar{
+    font-size: 20px;
+    width:600px;
+    flex-grow: 2;
+}
+/*----------*/
+
+
+
+
+
+
