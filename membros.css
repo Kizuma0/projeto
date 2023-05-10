@@ -1,0 +1,193 @@
+body{
+   margin: 0;
+   padding: 0;
+   background: fixed;
+   background-size: cover;
+   background-image: url('img/wallpaper.jpg');
+}
+
+.divi{
+   width: 100%;
+   background-color: #F0E9E1;
+   height: 15vh;
+   border-bottom: 4px solid #301901;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: 0px;
+}
+
+.link{
+   text-align: center;
+   font-size: 18px;
+   text-decoration: none;
+   background-color: #F0E9E1;
+   color: #301901;
+   border-radius: 25px;
+   width: 40px;
+   padding: 1.7vh;
+   font-family: Arial;
+   cursor: pointer;
+   box-shadow: rgba(50, 50, 93, 0.25) 1px 4px 7px 0px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+   transition: 0.5s;
+   border: 2px solid #301901;
+}
+
+.link:hover{
+   transition: 0.5s;
+   background-color: #301901;
+   padding: 2.2vh;
+   color: #F0E9E1;
+}
+
+.container-titulo{
+   display: flex;
+   justify-content: center;
+}
+
+.titulo{
+   text-align: center;
+   font-size: 35px;
+   font-family: Arial;
+   font-weight: bold;
+   color: #301901;
+   background-color: #F0E9E1;
+   padding: 2vh;
+   border-radius: 12px;
+   border: 3px solid #301901;
+}
+
+.fundo-branco{
+   background-color: #EEEEEEE7;
+   padding: 25px;
+   margin: 8px;
+   border-radius: 12px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   width: fit-content;
+   justify-content: center;
+   align-items: center;
+}
+
+.secao-principal{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   
+}
+
+.onca{
+   background-image: url('img/pintada.jpg');
+   background-size: cover;
+   width: 180px;
+   height: 180px;
+   border-radius: 20px;
+   border: 3px solid #301901;
+   display: flex;
+}
+
+.capivara{
+   background-image: url('img/capivara.jpg');
+   background-size: cover;
+   width: 180px;
+   height: 180px;
+   border-radius: 20px;
+   border: 3px solid #301901;
+   display: flex;
+}
+
+.porco-espinho{
+   background-image: url('img/porco5.jpg');
+   background-size: cover;
+   width: 180px;
+   height: 180px;
+   border-radius: 20px;
+   border: 3px solid #301901;
+   display: flex;
+}
+
+.lobo-guara{
+   background-image: url('img/lobo5.jpg');
+   background-size: cover;
+   width: 180px;
+   height: 180px;
+   border-radius: 20px;
+   border: 3px solid #301901;
+   display: flex;
+}
+
+.macaco-prego{
+   background-image: url('img/macaco3.jpg');
+   background-size: cover;
+   width: 180px;
+   height: 180px;
+   border-radius: 20px;
+   border: 3px solid #301901;
+   display: flex;
+}
+
+.nome-membros{
+   text-align: center;
+   font-size: 15px;
+   font-family: Arial;
+   font-weight: bold;
+   color: #301901;
+   background-color: #F0E9E1;
+   padding: 8px;
+   border-radius: 12px;
+   border: 2px solid #301901;
+}
+
+.turma-membros{
+   text-align: center;
+}
+
+footer{
+   background-color:#f0e9e1;
+   margin: 0px;
+   max-height: 400px;
+   border-top:4px solid #301901;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+}
+
+#img-4{
+   background-image: url('img/lobo3.png');
+   width: 200px;
+   height: 200px;
+   margin-left:15px;
+}
+
+.lista-membros{
+   font-size: 20px;
+   width: 600px;
+   flex-grow: 2;
+}
+
+.logo{
+   height: 300px;
+   width: 80%;
+   margin-bottom: 10px;
+   background-position: center;
+   background-size: cover;
+   border-radius: 20px;
+}
+
+.p-foot{
+   font-size: 15px;
+   width: 150px;
+   text-align: justify;
+   color: #301901;
+}
+
+#img-6{
+   background-image: url('img/qrcode.png');
+   background-size: cover;
+   border-radius: 10px;
+   width: 80px;
+   height: 80px;
+   margin: 5px;
+}
